@@ -1,0 +1,207 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background-color: #18191D;
+    box-sizing: border-box;
+}
+
+body {
+    padding-bottom: 65px;
+    position: relative;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+}
+
+a {
+    text-decoration: none;
+}
+
+.main {
+    width: 100%;
+    box-sizing: border-box;
+    padding-top: 100px;
+}
+
+/*---------------- header begin ---------------*/
+.main .header {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 0 100px;
+    box-sizing: border-box;
+    height: 100px;
+    overflow: hidden;
+}
+
+.main .header .logo {
+    width: 141px;
+    height: 34px;
+    flex: none;
+    cursor: pointer;
+}
+
+.main .header .logo .logo-img {
+    width: 100%;
+    height: 100%;
+}
+
+.main .header .connect-us {
+    flex: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.main .header .connect-us .twitter {
+    width: 30px;
+    height: 27px;
+    background: url('../images/twitter_w.png') no-repeat center center;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.main .header .connect-us .discord {
+    width: 30px;
+    height: 23px;
+    background: url('../images/discord_w.png') no-repeat center center;
+    background-size: cover;
+    margin-left: 50px;
+    cursor: pointer;
+}
+/*---------------- header end ---------------*/
+
+
+/*---------------- content begin ---------------*/
+.main .content {
+    width: 1440px;
+    margin: 0 auto;
+    /* overflow: hidden; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 57px;
+    margin-bottom: 40px;
+}
+
+.main .content .info {
+    padding-left: 100px;
+}
+
+.main .content .info .smark {
+    width: 511px;
+    height: 102px;
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.main .content .info .smark .smark-img {
+    position: absolute;
+    left: -102px;
+    top: -46px;
+    width: 715px;
+    height: 192px;
+}
+
+.main .content .info .text-box {
+    margin-bottom: 100px;
+}
+
+.main .content .info .text {
+    font-size: 30px;
+    font-weight: 600;
+    color: #FFFFFF;
+    line-height: 42px;
+}
+
+.main .content .info .coming-soon {
+    width: 333px;
+    height: 44px;
+    background: url('../images/comingsoon.png') no-repeat center center;
+    background-size: cover;
+}
+
+.main .content .info .connect-btns {
+    display: flex;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.main .content .info .btn {
+    width: 190px;
+    height: 58px;
+    border-radius: 3px;
+    background-color: #31E1CB;
+    font-size: 28px;
+    font-weight: 500;
+    color: #18191D;
+    line-height: 58px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 40px;
+    cursor: pointer;
+}
+
+.icon-t {
+    width: 30px;
+    height: 27px;
+    background: url('../images/twitter_b.png') no-repeat center center;
+    background-size: cover;
+    margin-right: 10px;
+}
+
+.icon-d {
+    width: 30px;
+    height: 27px;
+    background: url('../images/discord_b.png') no-repeat center center;
+    background-size: cover;
+    margin-right: 10px;
+}
+
+.main .content .show {
+    flex: none;
+    /* margin-right: -15px; */
+    width: 720px;
+    height: 638px;
+    border-radius: 12px;
+    background-image: linear-gradient(#2AFCBB, #4990FE);
+    padding: 15px;
+}
+
+.main .content .show .show-content {
+    width: 100%;
+    height: 100%;
+    background-color: #18191D;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.main .content .show .show-content .swiper {
+    width: 100%;
+    height: 100%;
+}
+/*---------------- content end ---------------*/
+
+
+
+/*---------------- footer begin ---------------*/
+.main .footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    font-size: 18px;
+    line-height: 25px;
+    color: rgba(255, 255, 255, 0.5);
+    padding: 20px 0;
+    text-align: center;
+}
+/*---------------- footer end ---------------*/
